@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'bruxregular';
+    src: url('brux-regular-webfont.woff2') format('woff2'), url('brux-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+header h1 {
+    font-family: 'bruxregular';
+    font-size: 4vw;
+    padding-bottom: 0.2em;
+}
+
+header img {
+    width: 1em;
+}
+
+.basebotones {
+    padding-left: 40%;
+}
+
+#botonesMoverse {
+    visibility: hidden;
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+    margin-top: 1em;
+    padding-top: 0.7em;
+    justify-content: center;
+}
+
+#direcciones-horizontales button {
+    margin: 1.6em;
+}
+
+#info {
+    font-family: 'bruxregular';
+    font-size: 2vw;
+    margin: 1em 1em;
+    text-align: center;
+    visibility: hidden;
+}
+
+.visuales {
+    padding: 0 2em;
+    text-align: center;
+}
+
+.tablero {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.bomba {
+    border: 1px solid black;
+    padding: 2em;
+    background-color: magenta;
+}
+
+.salida {
+    border: 1px solid black;
+    padding: 2em;
+    background-image: url("../img/exit.svg");
+    background-color: orange;
+}
+
+.rover {
+    background-image: url("../img/rover.svg");
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.ganar {
+    background-image: url("../img/Blue-Robot.svg");
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.roverAmarrillo {
+    background-image: url("../img/rover.svg");
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.roverRojo {
+    background-image: url("../img/rover.svg");
+    background-color: tomato;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.camino {
+    background-image: url("../img/huellas.svg");
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.minita {
+    background-color: orange;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+#pista {
+    visibility: hidden;
+}
